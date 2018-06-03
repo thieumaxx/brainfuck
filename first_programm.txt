@@ -1,0 +1,80 @@
+++++++++++          Affecte 10 à la case 0
+[                   Boucle initiale qui affecte des valeurs utiles au tableau 
+   >                avance à la case 1 
+   ++++++++++          affecte 10 à la case 1
+   >                avance à la case 2
+   +++++++++++       affecte 11 à la case 2 
+   >                avance à la case 3
+   +++              affecte 3 à la case 3
+   >                avance à la case 4
+   ++++++++++++                affecte 12 à la case 4
+   <<<<             retourne à la case 0
+   -                enlève 1 à la case 0
+]                   jusque à ce que la case 0 soit = à 0
+
+
+la boucle initialise le tableau selon les valeurs suivantes:
+Case : Valeur
+0 : 0
+1 : 100   lettre D
+2 : 110   lettre n
+3 : 30    espace
+4 : 120   lettre x
+
+>++++ affecte la valeur de 4
+.     affiche h
+---   diminue la valeur de 3
+.     affiche e
++++++++   ajoute 7
+..      affiche 2 fois le l
+>+    passe à la case 2 et ajoute1
+.     affiche o
+>++    vas a la case 3 et ajoute 2
+.   pour l'espace
+<---  recule d'une case (2)et diminue de 3 comme la case était positionné sur le o mais on veux allé sur le l
+.     affiche l 
+<------- recule d'une case donc je suis sur la case 1 qui contient le lettre l connc je diminue de 7 pour avoir ma lettre e
+.
+>> va sur la case 3
+.
+>----- vas sur la case 4 et recule de 4 pour la lettre s
+.
+<<< recule de 3 case et est sur le e
+.
+>>>- avance de 3 case et retire 1 pour la lettre r
+.
+++++  ajoute 4 pour la lettre v
+.
+<<--- vas sur la case 2 et retire 3 pour le i
+.
+<-- vas sur la case 1 et retire 2 pour le c
+.
+++ ajoute 2 pour la lettre 2
+.
+>> vas sur la case 3
+.
+< va sur la case 2
+.
++++++ ajoute 5 pour la lettre n
+.
+<+ vas sur la case 1 et ajoute1 pour la lettre f
+.
+>+ vas sur la case 2 et ajoute1 pour la lettre o
+.
+>>---- vas sur la case 4 et rtire4 pour la lettre r
+.
+<<-- vas sur la cases 2 et retire 2 pour la lettre m
+.
+<----- vas sur la cas 1 et retire 5 pour la lettre a
+.
+>>>++ vas sur la case 4 et ajoute 2 pour la lettre 2
+.
+<<---- vas sur la case 2 et retire 4 pour la lettre i
+.
+>>--- vas sur la case 4 et retire 3 pour la lettre q
+.
+++++ ajoute 4 pour la lettre u
+.
+<<<++++ vas sur la case 1 et ajoute 4 pour la lettre e
+.
+>>>>. pour aller a une case null
